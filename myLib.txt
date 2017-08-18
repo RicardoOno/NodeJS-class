@@ -2,3 +2,4 @@ NPM -> O npm é o gerenciador de pacotes do ecosistema Node. Ele tem a função 
 NODEMON -> É uma ferramenta que fica observando o código do projeto e já faz o reload automático sempre que detecta alguma alteração. Assim você não precisa ficar reiniciando a aplicação a cada nova mudança no código.
 EXPRESS ->
 EJS ->
+CommonJS -> É uma convenção para carregamentos de módulos javascript em aplicações server-side. O objeto que o node disponibiliza é o module e a função é passada para o atributo exports desse objeto.

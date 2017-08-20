@@ -1,5 +1,16 @@
 NPM -> O npm é o gerenciador de pacotes do ecosistema Node. Ele tem a função de gerenciar os projetos e pacotes javascript externos que precisemos utilizar em cada aplicação. Quando o Node é instalado, o npm também já vem por default e com certeza será muito útil em qualquer projeto desenvolvido sobre o Node, visto que é muito comum que se precise de libs externas para facilitar o desenvolvimento de certas funcionalidades. O próprio npm possui diversas bibliotecas que podem ser integradas com o Node. O npm consegue, portanto ajudar na instalação de pacotes, na execução de algumas tarefas dentro do ambiente do Node e como repositório de bibliotecas.
 NODEMON -> É uma ferramenta que fica observando o código do projeto e já faz o reload automático sempre que detecta alguma alteração. Assim você não precisa ficar reiniciando a aplicação a cada nova mudança no código.
-EXPRESS ->
+EXPRESS -> Uma lib do modulo http (pegar melhor a explicação)
 EJS ->
 CommonJS -> É uma convenção para carregamentos de módulos javascript em aplicações server-side. O objeto que o node disponibiliza é o module e a função é passada para o atributo exports desse objeto.
+Rotas -> Rotas são as configurações que criamos para cada url específica que queremos atender no nosso sistema server-side implementado em javascript.
+Factory -> Factory é um padrão de desenvolvimento muito utilizado no mundo Orientado a Objetos quando queremos isolar a criação de um objeto complexo para que os outros objetos que o utilizam passem apenas a pedir a sua criação sem necessariamente saber como ele está sendo construído. Por isso, a classe responsável por fazer essa criação fica conhecida como Fábrica, ou Factory, pois ela tem a função de fabricar o objeto desejado.
+DAO -> Data accses object
+
+Instalar modulos externos via NPM
+Mysql -> npm install mysql --save
+Nodemon ->  npm install -g nodemon
+Express ->
+
+Formatador
+JSONLint -> Formata json

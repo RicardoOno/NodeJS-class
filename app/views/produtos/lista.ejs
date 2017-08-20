@@ -1,0 +1,29 @@
+/**
+  Created by ricardo on 13/08/2017.
+ **/
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Node JS - Alura</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>id</td>
+                <td>Titulo</td>
+                <td>Descrição</td>
+                <td>Preço</td>
+            </tr>
+            <tr>
+            <%for(var i = 0; i<lista.length;i++){%>
+                <tr>
+                    <td><%=lista[i].id%></td>
+                    <td><%=lista[i].titulo%></td>
+                    <td><%=lista[i].descricao%></td>
+                    <td><%=lista[i].preco%></td>
+                </tr>
+            <%}%>
+            </tr>
+        </table>
+    </body>
+</html>

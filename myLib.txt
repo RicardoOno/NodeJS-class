@@ -5,7 +5,9 @@ EJS ->
 CommonJS -> É uma convenção para carregamentos de módulos javascript em aplicações server-side. O objeto que o node disponibiliza é o module e a função é passada para o atributo exports desse objeto.
 Rotas -> Rotas são as configurações que criamos para cada url específica que queremos atender no nosso sistema server-side implementado em javascript.
 Factory -> Factory é um padrão de desenvolvimento muito utilizado no mundo Orientado a Objetos quando queremos isolar a criação de um objeto complexo para que os outros objetos que o utilizam passem apenas a pedir a sua criação sem necessariamente saber como ele está sendo construído. Por isso, a classe responsável por fazer essa criação fica conhecida como Fábrica, ou Factory, pois ela tem a função de fabricar o objeto desejado.
-DAO -> Data accses object
+DAO -> Data acceses object
+body-parser ->  uso do body-parser deve ser informado antes do carregamento das rotas para que quando elas forem carregadas, já tenham a informação de como deverá ser feito o parse dos seus forms.
+Content Negotiation -> é um mecanismo definido no HTTP que torna possível servir diferentes formatos de um mesmo conteúdo a partir da mesma url. Evitando assim que se precisasse criar novas urls para cada formato necessário para exibir a lista de produtos, por exemplo.
 
 Instalar modulos externos via NPM
 Mysql -> npm install mysql --save

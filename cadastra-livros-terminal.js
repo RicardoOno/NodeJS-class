@@ -1,7 +1,7 @@
 /**
  * Created by ricar on 20/08/2017.
  */
-//para teste
+//para test
 
 var http = require('http');
 var configuracoes = {
@@ -21,12 +21,19 @@ var client = http.request(configuracoes, function(res) {
     res.on('data', function(body) {
         console.log('Corpo' + body);
     });
+    if(res.statusCode == 400) {
+        console.log('Deu erro');
+    }
 });
 
-var produto = {
-    titulo: 'mais sobre node',
+// Cadastra automaticamente
+
+/*var produto = {
+
+    titulo: '',
     descricao: 'node, js e um pouco sobre http',
     preco: 100
 };
 
 client.end(JSON.stringify(produto));
+ */

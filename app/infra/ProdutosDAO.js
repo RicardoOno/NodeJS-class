@@ -6,6 +6,13 @@ function ProdutosDAO(connection) {
 };
 // '_' -> demonstrar que é privado
 ProdutosDAO.prototype.lista = function (callback) {
+    /* Pq o callback?
+    query();
+    //libera o processador
+    //query ficou pronta?
+    var resultado - retorno da query
+    var results = this._connection.query('select * from livros');
+    */
     this._connection.query('select * from livros', callback);
 };
 ProdutosDAO.prototype.salva = function (produto, callback) {

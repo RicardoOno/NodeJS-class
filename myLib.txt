@@ -8,11 +8,15 @@ Factory -> Factory é um padrão de desenvolvimento muito utilizado no mundo Ori
 DAO -> Data acceses object
 body-parser ->  uso do body-parser deve ser informado antes do carregamento das rotas para que quando elas forem carregadas, já tenham a informação de como deverá ser feito o parse dos seus forms.
 Content Negotiation -> é um mecanismo definido no HTTP que torna possível servir diferentes formatos de um mesmo conteúdo a partir da mesma url. Evitando assim que se precisasse criar novas urls para cada formato necessário para exibir a lista de produtos, por exemplo.
+Mocha -> Existem ferramentas que possibilitam a automatização dos testes, portanto, para implementar uma nova maneira de realizar testes, nós vamos implementar uma biblioteca
 
 Instalar modulos externos via NPM
 Mysql -> npm install mysql --save
 Nodemon ->  npm install -g nodemon
 Express ->
+Express-validator ->
+Mocha ->
+Supertest ->
 
 Formatador
 JSONLint -> Formata json

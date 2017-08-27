@@ -1,7 +1,7 @@
 /**
  * Created by ricar on 20/08/2017.
  */
-//para teste
+//para test
 
 var http = require('http');
 var configuracoes = {
